@@ -1,0 +1,877 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 5em;
+    flex-wrap: wrap;
+    background-color: white;
+    /* width: 100%; */
+    box-shadow: 0 0.5rem 1rem rgba(0, 0  , 0, 0.1s);
+}
+.bars{
+    display: none;   
+}
+#show-bars{
+    display: none;
+}
+
+
+nav ul {
+    display: flex;
+    gap: 3em;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 45px;
+}
+
+nav ul li a:hover {
+    color: red;
+}
+
+.logo {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+
+.logo2 button {
+    background-color: limegreen;
+    border: 0;
+    font-size: 20px;
+    padding: 1em 2em;
+    border-radius: 5px;
+
+}
+
+.content {
+    margin-top: 130px;
+}
+
+.big {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1em 3rem;  
+}
+.text1 {
+    font-size: 60px;
+    line-height: 1.7;
+   
+}
+.text2 {
+    font-size: 45px;
+    line-height: 1.7;   
+}
+
+.clicks {
+    display: flex;
+    gap: 2%;
+    align-items: center;
+    padding-top: 10px;
+}
+.click1 button {
+    background-color: limegreen;
+    border: none;
+    padding: 1em 2em;
+    font-size: 33px;
+}
+
+.click2 button {
+    background-color: grey;
+    border: none;
+    padding: 1em 2em;
+    font-size: 33px;
+}
+
+.content2 {
+    margin-top: 50px;
+}
+ .logo22{
+    display: flex;
+    gap: 1em;
+
+} 
+
+ .big2 {
+    display: flex;
+  width: 100%;
+  
+     
+} 
+   .big2 .bigg1{
+    width: 100%;
+} 
+ .bigg1 img{
+    width: 100%;
+} 
+ 
+
+.des {
+    border: 2px solid grey;
+    width: fit-content;
+    padding: 16px;
+    font-size: 33px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: grey;
+    /* margin-left: 30px;  */
+}
+.work1 h1 {
+    margin-top: 40px;
+    font-size: 68px;
+    font-weight: bold;
+      margin-bottom: 30px;  
+     width: fit-content;
+}
+
+
+.line {
+    border: 1px solid grey;
+   margin: auto;
+    width: 90%;
+}
+.correct1 {
+    margin-top: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3rem;
+  
+    
+}
+.cut1 p{
+    font-size:60px;
+    line-height: 1.5;
+}
+
+.cut2 h1 {
+    color: grey;
+    line-height: 1.3em;
+    font-weight: bold;
+    font-size: 68px;
+}
+.team-img{
+    margin-top: 60px;   
+}
+
+.middle{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.pop1{
+    margin-top: 70px;
+}
+.pop1 p{
+    border: 1px solid grey;
+    border-radius: 20px;
+    width: fit-content;
+    padding: 1em 1em;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+.pop1 h1{
+   font-size: 60px;
+    font-weight: bold;
+    width: 500px;
+    line-height: 1.2;
+    margin-bottom: 40px;
+}
+
+.gallery {
+    margin-top: 50px;
+    padding: 1em 1em;
+}
+
+ .gallery .gallery1 img {
+    width: 100%;
+} 
+
+.gallery1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+}
+
+.hy {
+    margin-top: 2em;
+}
+
+.hy1 h1{
+    font-size: 60px;
+}
+.hy1 p{
+    font-size: 55px;
+    line-height: 1.3;
+    color: grey;
+
+}
+.lappy button{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    color: black;
+    margin-top: 80px;
+    background-color: lime;
+   
+     padding: 20px; 
+    font-size: 40px;
+    border: none;
+}
+.services {
+    margin-top: 70px;
+}
+
+.padding-container {
+    padding: 1em 2em;
+}
+.heading h1 {
+    font-size: 5rem;
+    margin: 0.4em 0;
+    font-weight: 600;
+    border-bottom: 100px;
+}
+.heading p {
+    border: 1px solid grey;
+    width: fit-content;
+    padding: 3rem;
+    border-radius: 50px;
+    color: grey;
+    font-size: 70px;
+   
+}
+.main-service{
+    margin-top: 70px;
+}
+
+.logo2 .hire:hover {
+    background-color: red;
+    color: white;
+}
+
+.click1 .chip:hover {
+    background-color: red;
+    color: white;
+}
+
+.click2 .clap:hover {
+    background-color: red;
+    color: white;
+}
+
+/* service section */
+.webdesign {
+    display: grid;
+    grid-template-columns: 1fr 2fr 8fr 1fr;
+    margin-bottom: 20px;
+    margin-top: 60px;
+}
+
+.branding {
+    display: grid;
+    grid-template-columns: 1fr 2fr 8fr 1fr;
+    margin-bottom: 20px;
+    margin-top: 70px;
+}
+
+.motion {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 8fr 1fr;
+    margin-bottom: 20px;
+}
+
+
+.dd1 p {
+    color: grey;
+    font-size: 60px;
+    line-height: 1.6;
+
+}
+
+.dd1 h1 {
+    font-size: 50px;
+}
+
+.dd1:hover {
+    color: black;
+}
+
+.dd1 i {
+    padding: 40px;
+    border: 2px solid grey;
+    border-radius: 50%;
+}
+
+.dd1 i:hover {
+    background-color: lime;
+}
+
+
+/* work style  */
+.work {
+    margin-top: 70px;
+}
+span {
+    color: black;
+}
+
+/* flows styles  */
+.flows {
+    margin-bottom: 30px;
+    background-color: rgb(181, 174, 174);
+    padding: 30px;
+}
+
+.flows img {
+    width: 100px;
+    margin: 17px;
+
+}
+
+/* testimoney styles  */
+.testimony {
+    padding: 3em 2em;
+   
+}
+
+
+.testimony .holla {
+    border-radius: 20px;
+    border: 1px solid grey;
+    padding: 10px;
+    width: fit-content;
+    font-size: 42px;
+    
+
+}
+
+.line2 {
+    border: 2px solid lightblue;
+    margin-top: 30px;
+    width: 90%;
+}
+
+.test1 h1 {
+    margin-top: 40px;
+    font-size: 60px;
+    width: 600px;
+    line-height: 1.5;
+}
+
+.testimony1 {
+    margin-top: 20px;
+}
+
+.testimony1 p {
+    margin-top: 10px;
+    color: grey;
+    line-height: 1.5;
+    font-size: 60px;
+}
+.speak1 {
+    /* border: 0.1px solid grey; */
+    width: 50%;
+    padding: 30px;
+    margin-top: 30px;
+       
+}
+.speak1 p{
+    font-size: 60px;
+    line-height: 1.5;   
+}
+
+
+/* blog styles  */
+.Blogpost {
+    padding: 1em 1em;
+}
+
+.mouse {
+    color: grey;
+     width: 200px; 
+    border: 1px solid grey;
+     padding: 1em 2em; 
+    border-radius: 30px;
+    font-size: 38px;  
+}
+
+.blogtxt h1 {
+    font-weight: 900;
+    font-size: 60px;
+    width: 490px;
+    line-height: 1.6;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.blogpictures {
+ display: flex;
+ gap: 2em;
+ object-fit: cover;
+}
+  .blogcontent img{
+    width: 100%; 
+    height: 30vh;   
+}  
+ .blogpictures .blogcontent{
+    width: 100%;
+} 
+
+.texth1 {
+    margin-top: 20px;
+    font-size: 20px;
+}
+.blog-text{
+    display: flex;
+    justify-content: space-between;
+}
+.line3 {
+    border: 1px solid rgb(140, 140, 183);
+   margin-top: 30px;
+}
+
+
+
+
+
+/*  media query */
+@media only screen and (max-width:992px) {
+header{
+    width: 90%;
+}
+    nav{
+        background-color: transparent;
+        position: fixed;
+        z-index: -1;
+        top: 5em;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 0%;
+        padding: 2em 0 0 2em;
+        transform: all 0.5s ease-in-out;
+        overflow: hidden;        
+    }
+    nav ul{
+        display: flex;
+        flex-direction: column;        
+    }
+    .bars{
+        display: block;
+        background-color: #c0e500;
+        padding: 13px;
+        border-radius: 4px;
+    } 
+    header #show-bars:checked ~nav{
+        background-color:gainsboro;
+        height: 100%;
+        width: 65%;
+    }
+
+   nav ul li a{
+   background-color: red;
+   font-size: 20px;
+   }
+  .logo1{
+    display: none;
+  }
+  .logo2{
+ display: none;
+  }
+.big{
+    display: flex;
+    flex-direction: column;
+          
+}
+  .text1 h1{
+      width: 720px;  
+    font-size: 60px;
+  
+ }
+.text1 h1 br {
+    display: none; 
+}
+ .text2 p { 
+ line-height: 1.7;
+ font-size: 21px;
+ width: 600px;
+ 
+}
+.text2 p br {
+        display: none
+}
+.click1 .chip{
+font-size: 16px;
+}
+.click2 .clap{
+font-size: 16px;
+}
+/* .content2 .big2{
+    width: 100%;
+} */
+.big2{
+    display: flex; 
+    
+    padding: 1em 1em;    
+}
+.des{
+    margin-left: 20px;
+}
+.work1 h1{
+    margin-left: 20px;
+}
+.big2 img{
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+
+}
+.work1 h1{
+font-size: 28px;
+line-height: 1.5;
+}
+.correct1{
+display: flex;
+flex-direction: column;
+}
+.cut1{
+margin-right: 250px;
+width: 600px;
+margin-bottom: 20px;
+}
+.cut1 p{
+font-size: 14px;
+color: grey;
+}
+ .cut2 h1{
+font-size: 28px;
+margin-right: 150px;
+width: 700px;
+} 
+   .team img {
+        width: 70%;
+        display: block;
+         position: relative;
+          right: 70px;       
+    }
+    .pop1 p{
+    font-size: 10px;
+    }
+      .line{
+    width: 55%;
+    margin-left: 30px;
+    } 
+    .gallery1{
+        display: grid;
+        grid-template-columns: 1fr;  
+    }
+    .gallery .gallery1 img{
+        width: 87%;
+    }
+    
+   
+    .hy1 h1{
+        font-size: 28px;
+        margin-left: 15px;
+    }
+    .hy1 p{
+        font-size: 20px;
+        width: 700px;
+    }
+   
+    .work1{
+      margin-right: 40px;
+      
+    }
+    .pop1 h1{
+    font-size: 30px;
+    width: 300px;
+    line-height: 1.3;
+
+   }
+   
+ .lappy button{
+        font-size: 13px;
+        padding: 20px;
+        text-align: center;
+    }
+    .heading p{
+        font-size: 15px;
+        
+    }
+    .mouse{
+        font-size: 15px;
+        width: fit-content;
+    }
+    .heading h1{
+        font-size: 28px;
+        line-height: 1.4;
+    }
+      .webdesign{
+        display: grid;
+        grid-template-columns: 5%  15% 52% 5%;
+      }
+      .dd1 h1{
+        font-size: 16px;
+      }
+      .dd1 p{
+        font-size: 16px;
+      }
+      .branding{
+        display: grid;
+    grid-template-columns: 5%  15% 52% 5%; 
+      }
+      .motion{
+        display: grid;
+ grid-template-columns: 5%  15% 52% 5%; 
+      }
+   
+    .test1 h1{
+        font-size: 38px;
+    
+    }
+    .testimony1 p {
+        width: 650px; 
+        font-size: 18px;
+    }
+    .speak1 p{
+        font-size: 18px;
+        line-height: 1.8;   
+    
+    }
+    
+    .blogpictures {
+        display: flex;
+        flex-direction: column; 
+        width: 100%;  
+    }
+    .blogpictures img{
+    width: 80%;
+    height: 40vh;
+    object-fit: cover;
+    padding: 1em 0.5em;
+    }
+    .blog-text{ 
+    display: flex;
+
+    }
+    .line3{
+    width: 70%;
+    margin-left: 50px;
+    }
+   
+.blog-text{
+width: 80%;
+display: flex;
+align-items: center;
+
+}
+.texth1 h1{
+    font-size: 18px;
+    text-align: center;
+}
+.text1 p{
+    font-size: 18px;
+    padding: 5px;
+}
+.text2 p1{
+font-size: 16px;
+line-height: 1;
+}
+
+
+}
+
+ 
+  @media only screen and (max-width:440px){
+ header{
+    width: 75%;
+ }
+    .text1 h1{
+    font-size:30px;
+    width: 300px;
+    position: relative;
+    left: 1px;
+}
+.text2 p{
+    font-size: 19px;
+    width: 380px;
+    margin-top: 15px;
+    position: relative;
+    left: 2px;
+ 
+}
+.clicks{
+    display: flex;
+    flex-direction: column; 
+    /* right: 300px;  */
+    width: 80%;
+}
+.chip{
+     width:300px; 
+    border-radius: 30px;
+    
+}
+.clap{
+    width: 300px;
+    border-radius: 30px;
+}
+.big2{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+  .big2 .bigg1 img{
+    width:100%
+}  
+.work{
+    margin-left: 5px;
+}
+.des{
+    padding: 12px;
+}
+
+.line{
+    width: 300px;
+}
+.cut1 p{
+    position: relative;
+    left: 220px;
+    font-size: 24px;
+    width: 380px;
+}
+.cut2 h1{
+    position: relative;
+    left: 60px;
+    font-size: 18px;
+    width: 380px;
+    
+}
+.team-img{
+margin-top: 30px;
+
+}
+.team img{
+    width: 490px;
+
+} 
+.pop1 p{
+    width: fit-content;
+    font-size: 10px;
+}
+.gallery1{
+    display: grid;
+    grid-template-columns: 1fr;
+     width: 470px;
+}
+.gal1 img{
+    object-fit: cover;
+    height: 40vh;   
+}
+.gal2 img{
+    height: 40vh;
+    object-fit: cover;
+}
+
+.hy1 h1{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.hy1 p{
+    font-size: 18px;
+     width: 400px; 
+}
+.lappy button{
+
+    font-size: 25px;
+}
+.heading p{
+    padding: 12px;
+}
+.webdesign{
+    display: grid;
+    grid-template-columns:1fr;
+}
+.motion{
+    display: grid;
+    grid-template-columns:1fr;
+}
+.branding{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+ .dd1 i{
+    position: relative;
+     left: 300px; 
+    bottom: 190px;
+} 
+.dd1 p{
+    font-size: 14px;
+    width:300px;
+    margin-top: 20px;
+}
+ .flows{
+    width: 600px;
+}
+.test1 h1{
+    font-size: 28px;
+} 
+.line2{
+    width: 500px;
+}
+.testimony1 p{
+    font-size: 20px;
+     width: 400px; 
+     
+}
+
+.speak p{
+    font-size: 20px;
+    width: 380px;
+ }
+ .blogpictures .blogcontent{
+    width: 500px;
+ }
+ .blog-text{
+    display: flex;
+    align-items: center;
+ }
+.blogtxt h1{
+  font-size: 28px;
+}  
+.text1 p{
+    font-size: 18px;
+} 
+.text2 p1{
+    font-size: 18px;
+} 
+.texth1 h1{
+    font-size: 15px;
+     margin-right: 100px; 
+}
+
+}   
